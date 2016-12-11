@@ -12,17 +12,43 @@
     <sprite>sprites\spr_swarm_spider_dead</sprite>
     <sprite>sprites\spr_chair</sprite>
     <sprite>sprites\spr_spider_slime</sprite>
+    <sprite>sprites\spr_spider_spawn</sprite>
+    <sprite>sprites\spr_webspider</sprite>
+    <sprite>sprites\spr_spiderweb</sprite>
   </sprites>
-  <backgrounds name="background"/>
-  <paths name="paths"/>
+  <backgrounds name="background">
+    <background>background\tile_1</background>
+    <background>background\with_halfes</background>
+    <background>background\background3</background>
+    <background>background\background5</background>
+    <background>background\background6</background>
+  </backgrounds>
+  <paths name="paths">
+    <paths name="pathes_of_webspiders">
+      <path>paths\path_webspiders</path>
+      <path>paths\path_webspiders2</path>
+      <path>paths\path_webspiders3</path>
+    </paths>
+    <path>paths\path_simple_spider_spawner_1</path>
+    <path>paths\path_simple_spider_spawner_2</path>
+    <path>paths\path_babys_way</path>
+  </paths>
   <objects name="objects">
     <object>objects\obj_baby</object>
     <object>objects\obj_player</object>
     <object>objects\obj_swarm_spider</object>
-    <object>objects\obj_chair</object>
+    <object>objects\obj_lvl_blockade</object>
     <object>objects\obj_swarm_spider_dead</object>
     <object>objects\obj_spider_slime</object>
+    <object>objects\obj_spider_spawner</object>
+    <object>objects\obj_webspider</object>
+    <object>objects\obj_spiderweb</object>
+    <object>objects\obj_game_init</object>
   </objects>
+  <timelines name="timelines">
+    <timeline>timelines\timeLine_swarm_spider</timeline>
+    <timeline>timelines\timeLine_webspider</timeline>
+  </timelines>
   <rooms name="rooms">
     <room>rooms\room_game</room>
     <room>rooms\room_start</room>
