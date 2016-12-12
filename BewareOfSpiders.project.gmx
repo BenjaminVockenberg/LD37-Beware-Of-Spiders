@@ -4,10 +4,21 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\snd_music</sound>
+    <sound>sound\snd_player_melee</sound>
+    <sound>sound\snd_kill_spider</sound>
+    <sound>sound\snd_hurt_baby</sound>
+    <sound>sound\snd_webspider_spawn</sound>
+    <sound>sound\snd_spiderweb</sound>
+    <sound>sound\snd_spider_spawning</sound>
+  </sounds>
   <sprites name="sprites">
+    <sprites name="grp_player">
+      <sprite>sprites\spr_player</sprite>
+      <sprite>sprites\spr_cat_melee</sprite>
+    </sprites>
     <sprite>sprites\spr_baby</sprite>
-    <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_swarm_spider</sprite>
     <sprite>sprites\spr_swarm_spider_dead</sprite>
     <sprite>sprites\spr_chair</sprite>
@@ -15,6 +26,11 @@
     <sprite>sprites\spr_spider_spawn</sprite>
     <sprite>sprites\spr_webspider</sprite>
     <sprite>sprites\spr_spiderweb</sprite>
+    <sprite>sprites\spr_new_swarm_spider</sprite>
+    <sprite>sprites\spr_new_webspider</sprite>
+    <sprite>sprites\spr_new_kitty</sprite>
+    <sprite>sprites\spr_kid</sprite>
+    <sprite>sprites\spr_freakedKid</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tile_1</background>
@@ -22,6 +38,9 @@
     <background>background\background3</background>
     <background>background\background5</background>
     <background>background\background6</background>
+    <background>background\bg_splash</background>
+    <background>background\gb_start_game</background>
+    <background>background\bg_gameover</background>
   </backgrounds>
   <paths name="paths">
     <paths name="pathes_of_webspiders">
@@ -32,10 +51,21 @@
     <path>paths\path_simple_spider_spawner_1</path>
     <path>paths\path_simple_spider_spawner_2</path>
     <path>paths\path_babys_way</path>
+    <path>paths\path_baby_run_away</path>
   </paths>
+  <shaders name="shaders">
+    <shader type="GLSLES">shaders\shader0.shader</shader>
+  </shaders>
+  <fonts name="fonts">
+    <font>fonts\fnt_highScore</font>
+  </fonts>
   <objects name="objects">
+    <objects name="objgrp_player">
+      <object>objects\obj_player_melee</object>
+      <object>objects\obj_player</object>
+    </objects>
     <object>objects\obj_baby</object>
-    <object>objects\obj_player</object>
+    <object>objects\obj_baby_flucht</object>
     <object>objects\obj_swarm_spider</object>
     <object>objects\obj_lvl_blockade</object>
     <object>objects\obj_swarm_spider_dead</object>
@@ -44,14 +74,18 @@
     <object>objects\obj_webspider</object>
     <object>objects\obj_spiderweb</object>
     <object>objects\obj_game_init</object>
+    <object>objects\obj_splash</object>
+    <object>objects\init_highsc</object>
+    <object>objects\obj_restart_game</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeLine_swarm_spider</timeline>
     <timeline>timelines\timeLine_webspider</timeline>
   </timelines>
   <rooms name="rooms">
-    <room>rooms\room_game</room>
+    <room>rooms\inithighscore</room>
     <room>rooms\room_start</room>
+    <room>rooms\room_game</room>
     <room>rooms\room_end</room>
   </rooms>
   <help>

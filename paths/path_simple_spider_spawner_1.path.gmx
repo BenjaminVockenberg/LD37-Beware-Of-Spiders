@@ -6,22 +6,22 @@
   <hsnap>16</hsnap>
   <vsnap>16</vsnap>
   <points>
-    <point>336,240,100</point>
-    <point>672,272,100</point>
-    <point>912,256,100</point>
+    <point>432,224,100</point>
+    <point>688,224,100</point>
+    <point>992,240,100</point>
     <point>1072,272,100</point>
     <point>1152,304,100</point>
     <point>1232,288,100</point>
     <point>1216,512,100</point>
     <point>1200,768,100</point>
-    <point>1024,1008,100</point>
+    <point>1216,1088,100</point>
     <point>736,1072,100</point>
     <point>272,1072,100</point>
     <point>368,848,100</point>
     <point>368,480,100</point>
-    <point>208,304,100</point>
+    <point>176,352,100</point>
     <point>224,256,100</point>
     <point>272,240,100</point>
-    <point>304,240,100</point>
+    <point>368,272,100</point>
   </points>
 </path>

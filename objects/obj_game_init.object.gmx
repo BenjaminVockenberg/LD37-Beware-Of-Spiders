@@ -41,6 +41,123 @@
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string></string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="5" enumb="27">
+      <action>
+        <libid>1</libid>
+        <id>224</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_another_room</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>11</kind>
+            <room>room_start</room>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="64">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>// Highscore with outline
+draw_set_font(fnt_highScore);
+draw_set_color(c_black);
+draw_text(100+2, 15+2, "Score: " + string(global.actualscore));
+draw_text(100-2, 15-2, "Score: " + string(global.actualscore));
+draw_text(100+2, 15, "Score: " + string(global.actualscore));
+draw_text(100-2, 15, "Score: " + string(global.actualscore));
+draw_text(100, 15+2, "Score: " + string(global.actualscore));
+draw_text(100, 15-2, "Score: " + string(global.actualscore));
+
+draw_set_color(c_white);
+draw_set_alpha(1);
+draw_text(100, 15, "Score: " + string(global.actualscore));
+
+
+// Highscore
+draw_set_font(fnt_highScore);
+draw_set_color(c_black);
+draw_text(512+2, 15+2, "Highscore: " + string(global.highscore));
+draw_text(512-2, 15-2, "Highscore: " + string(global.highscore));
+draw_text(512+2, 15, "Highscore: " + string(global.highscore));
+draw_text(512-2, 15, "Highscore: " + string(global.highscore));
+draw_text(512, 15+2, "Highscore: " + string(global.highscore));
+draw_text(512, 15-2, "Highscore: " + string(global.highscore));
+
+draw_set_color(c_white);
+draw_set_alpha(1);
+draw_text(512, 15, "Highscore: " + string(global.highscore));
+
+
+
+// Highscore
+draw_set_font(fnt_highScore);
+draw_set_color(c_black);
+draw_text(312+2, 15+2, "Multiplier: " + string(global.multiplier));
+draw_text(312-2, 15-2, "Multiplier: " + string(global.multiplier));
+draw_text(312+2, 15, "Multiplier: " + string(global.multiplier));
+draw_text(312-2, 15, "Multiplier: " + string(global.multiplier));
+draw_text(312, 15+2, "Multiplier: " + string(global.multiplier));
+draw_text(312, 15-2, "Multiplier: " + string(global.multiplier));
+
+draw_set_color(c_white);
+draw_set_alpha(1);
+draw_text(312, 15, "Multiplier: " + string(global.multiplier));
+
+
+
+
+
+
+
+
+
+</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
   </events>
   <PhysicsObject>0</PhysicsObject>
