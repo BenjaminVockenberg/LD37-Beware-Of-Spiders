@@ -1,4 +1,4 @@
-# ld37_BewareOfSpiders.gmx
+# ld37 Beware Of Spiders
 A LudumDare37 game. Theme is "OneRoom"
 
 BY Benjamin Vockenberg | Twitter: @technokrat | Mail: benjamin.vockenberg@gmail.com
